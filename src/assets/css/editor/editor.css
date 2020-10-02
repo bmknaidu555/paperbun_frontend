@@ -1,0 +1,85 @@
+.editorView{
+    background: #fff;
+    margin-top:80px;
+}
+
+.editorTitle{
+    margin: auto;
+    max-width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.editorTitle textArea{
+    /*height: 106px;*/
+    overflow-y: hidden;
+
+    font-family: "PT Serif";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 42px;
+    margin-bottom: 0.3em;
+
+    border: 0;
+    outline: 0;
+    width: 100%;
+    line-height: 1.2em;
+    resize: none;
+}
+
+.editorBody{
+    font-family: "PT Serif";
+    margin-top: 0px;
+    height: 100%;
+    margin: auto;
+    max-width: 740px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.public-DraftEditorPlaceholder-root {
+    font-size: 19px;
+    font-style: normal;
+}
+
+.editorBody .md-block-paragraph span{
+    font-family: "PT Serif";
+    margin-bottom: 1.2em;
+    line-height: 1.5em;
+    word-spacing: 1.5px;
+    color: #333333;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+
+/* Temporary - Overriding the default styles */
+
+.md-RichEditor-root{
+    padding: 0px 15px;
+}
+
+.md-side-toolbar{
+    left :-60px;
+}
+
+.md-side-toolbar .md-add-button {
+    border: 1px solid #cccccc
+}
+
+.md-sb-button svg{
+    height:30px;
+    width: 16px;
+}
+.md-sb-button svg path {
+    fill: #cccccc;
+    
+}
+
+.md-RichEditor-editor .public-DraftEditor-content, .md-RichEditor-editor .public-DraftEditorPlaceholder-root{
+    padding :0px;
+}
+
+
+
